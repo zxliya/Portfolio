@@ -1,0 +1,33 @@
+.topWhitespace {
+    height:20px;
+    width:auto;
+}
+.intro {
+    
+    font-family:Copperplate, Papyrus, fantasy;
+    font-size:30px;
+    color:#030027;
+    margin-left:40px;
+    margin-top:40px;
+    line-height:0;
+    height:40px;
+}
+
+
+.name, h1 {
+    
+    padding: 0px 40px 40px;
+    margin: 0;
+    text-align: center;
+    color:#151E3F;
+    font-family:Copperplate, Papyrus, fantasy;
+    text-transform: uppercase;
+    font-size:100px;
+}
+
+
+
+
+body {
+    background-color:#C16E70;
+}
