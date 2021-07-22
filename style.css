@@ -1,33 +1,43 @@
 .topWhitespace {
-    height:20px;
+    height:100px;
     width:auto;
 }
 .intro {
     
     font-family:Copperplate, Papyrus, fantasy;
     font-size:30px;
-    color:#030027;
-    margin-left:40px;
-    margin-top:40px;
+    color:#29214A;
+    margin-left:60px;
     line-height:0;
-    height:40px;
+    height:0px;
+    
 }
 
 
-.name, h1 {
+.name {
     
-    padding: 0px 40px 40px;
-    margin: 0;
-    text-align: center;
-    color:#151E3F;
+    padding: 0px 0px;
+    margin-left: 60px;
+    
+    
+    color:#29214A;
     font-family:Copperplate, Papyrus, fantasy;
     text-transform: uppercase;
-    font-size:100px;
+    font-size:50px;
+    line-height:5px;
+    font-style:italic;
 }
 
+.highlight {
+    color:white;
+}
 
-
+#introtoweb {
+    font-family: Helvetica, sans-serif;
+    color:#6B5227;
+    width:250px;
+}
 
 body {
-    background-color:#C16E70;
+    background-color:#EDB759;
 }
