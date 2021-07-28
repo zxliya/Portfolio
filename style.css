@@ -16,6 +16,7 @@
     font-size: 110px;
     line-height:70px;
     bottom: 30px;
+    
 }
 
 .name {
@@ -42,14 +43,14 @@
 
 #introtoweb {
     font-family: Oswald, sans-serif;
-    color:#6B5227;
+    color:#305A4F;
     
     font-size: 40px;
     display:inline-block;
     
     padding-right:0px;
     position:relative;
-    
+    margin-left:50px;
     line-height: px;
     z-index: 2;
     bottom:0px;
@@ -71,17 +72,17 @@
 }
  #circle {
     background-color: #3A9A82;
-    height:500px;
-    width:400px;
-    border-bottom-left-radius: 25%;
-    border-top-left-radius: 10px;
-    transform: rotate(25deg);
+    height:300px;
+    width:350px;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 30%;
+    position:absolute;
+    bottom:0;
+    right:0;
     display:inline-block;
-    z-index: 2;
-    position:relative;
-    bottom:400px;
-    left: 190px;
-    float:right;
+    
+    
 } 
 #circle2 {
     background-color: #44669D;
@@ -97,22 +98,22 @@
     transform:rotate(10deg)
     
 }
-/* #circle3 {
-    background-color: #3A9A82;
-    height:300px;
-    width:300px;
-    border-radius: 100%;
+#circle3 {
+    background-color: #0E2F64;
+    height:330px;
+    width:380px;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 100%;
+    border-top-right-radius:30%;
+    position:absolute;
+    bottom:0;
+    right:0px;
     display:inline-block;
-    z-index: 1;
-    position:relative;
-    bottom:250px;
-    left: 100px;
-    float:right;
-} */
+    
+    
+} 
 
-#topsection {
-    padding-bottom:50px;
-}
+
 
 h2 {
     color:#29214A;
@@ -120,13 +121,14 @@ h2 {
     text-transform: uppercase;
     font-size:50px;
     line-height:10px;
+    margin-bottom:15px;
     margin-left:0px;
 }
 .defaultText {
     font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
     font-size: 25px;
     margin-left:0px;
-    width: 50%;
+    
 }
 #dashedline1 {
     transform: rotate(16deg);
@@ -146,7 +148,59 @@ h2 {
     float:right;
 }
 
+.likNdis {
+    position:relative;
+    top: 125px;
+    left: 20px;
+}
+.catPhotos {
+    width:300px;
+    height:300px;
+    display:inline-block;
+    padding:10px;
+    position:absolute;
+    align-items: center;
+    
+}
+.catbg {
+    background-color:#7A8FB1 ;
+    height: 300px;
+    width: 330px;
+    margin: auto;
+    border-radius:10px;
+    
+}
+.aboutmecontainer {
 
+    background-color: #C0DED6;
+    padding: 60px;
+    border-radius: 50px;
+}
+.containerUPP {
+
+    position:relative; 
+    bottom: 150px;
+}
+
+.talentSections {
+    
+    text-align:center;
+    margin: 10px;
+    padding: 30px;
+}
+.codingTag {
+    background-color: #7A8FB1;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.backgroundChange {
+    
+    
+    background-color: white; 
+    padding: 120px 100px; 
+    width: 100%; 
+    margin: 0;
+}
 body {
-    background-color:#EDB759;
+    background-color:#C0DED6;
 }
